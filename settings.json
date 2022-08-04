@@ -1,0 +1,78 @@
+// VS Code JSON settings
+
+{
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.fontSize": 16,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "line-thin",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "window.confirmBeforeClose": "always",
+  "git.enableSmartCommit": true,
+  "oracledevtools.bookmarkFileFolder": "C:\\Users\\HP\\Oracle\\oracle.oracledevtools",
+  "oracledevtools.download.otherFolder": "C:\\Users\\HP\\downloads",
+  "oracledevtools.connectionConfiguration.configFilesFolder": "C:\\Users\\HP\\Oracle\\network\\admin",
+  "oracledevtools.connectionConfiguration.walletFileFolder": "C:\\Users\\HP\\Oracle\\network\\admin",
+  "redhat.telemetry.enabled": true,
+  "qute.validation.enabled": true,
+  "workbench.iconTheme": "vscode-icons",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "workbench.colorTheme": "Andromeda Italic Bordered",
+  "grunt.autoDetect": "on",
+  "quarkus.tools.alwaysShowWelcomePage": false,
+  "terminal.integrated.commandsToSkipShell": ["language-julia.interrupt"],
+  "julia.symbolCacheDownload": true,
+  "julia.enableTelemetry": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.guides.bracketPairs": true,
+  "editor.linkedEditing": true,
+  "editor.wordWrap": "on",
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "left": {
+        "custom": {
+          "borderWidth": "0 0 0 5px",
+          "borderStyle": "solid",
+          "borderColor": "yellow",
+          "borderRadius": "5px",
+          "overviewRulerColor": "white"
+        }
+      },
+      "right": {
+        "custom": {
+          "borderWidth": "0 5px 0 0",
+          "borderStyle": "solid",
+          "borderColor": "yellow",
+          "borderRadius": "5px",
+          "overviewRulerColor": "white"
+        }
+      }
+    }
+  },
+  "workbench.startupEditor": "none",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": ["Abdullah", "Wahed"],
+  "files.associations": {
+    "*.rmd": "markdown"
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#12122c",
+    "editorGroupHeader.tabsBackground": "#12122c",
+    "editorGroupHeader.tabsBorder": "#90ee90",
+    "editorGroupHeader.border": "#e7dca5",
+    "sideBar.background": "#050203",
+    "sideBar.border": "#850101",
+    "sideBar.dropBackground": "#050203",
+    "sideBar.foreground": "#F4F1E6"
+  }
+}
