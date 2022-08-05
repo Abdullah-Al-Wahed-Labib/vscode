@@ -91,6 +91,20 @@
     "opacity": 0.1
   },
   "background.customImages": [
-    "H:/background.png"                                     // please change the path of the background image for the editor accordingly !!!
-  ]
+    "H:/background.png"                         // change the path to get the background image
+  ],
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path.windows": "C:\\Users\\HP\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+    "vscode-kubernetes.helm-path.windows": "C:\\Users\\HP\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments":"#ffe600",
+    "functions": "#90ee90",
+    "keywords": "#ff6666",
+    "numbers": "#7fd4f0",
+    "strings": "#e3e2e2",
+    "types": "#ffb264",
+    "variables": "#ffffff"
+
+  }
 }
