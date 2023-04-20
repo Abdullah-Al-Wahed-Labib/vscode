@@ -1,110 +1,113 @@
 // VS Code JSON settings
 
 {
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.fontSize": 16,
-  "editor.cursorBlinking": "smooth",
-  "editor.cursorStyle": "line-thin",
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "window.confirmBeforeClose": "always",
-  "git.enableSmartCommit": true,
-  "oracledevtools.bookmarkFileFolder": "C:\\Users\\HP\\Oracle\\oracle.oracledevtools",
-  "oracledevtools.download.otherFolder": "C:\\Users\\HP\\downloads",
-  "oracledevtools.connectionConfiguration.configFilesFolder": "C:\\Users\\HP\\Oracle\\network\\admin",
-  "oracledevtools.connectionConfiguration.walletFileFolder": "C:\\Users\\HP\\Oracle\\network\\admin",
-  "redhat.telemetry.enabled": true,
-  "qute.validation.enabled": true,
   "workbench.iconTheme": "vscode-icons",
-  "bracket-pair-colorizer-2.depreciation-notice": false,
   "workbench.colorTheme": "Andromeda Italic Bordered",
-  "grunt.autoDetect": "on",
-  "quarkus.tools.alwaysShowWelcomePage": false,
-  "terminal.integrated.commandsToSkipShell": ["language-julia.interrupt"],
-  "julia.symbolCacheDownload": true,
-  "julia.enableTelemetry": false,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.guides.bracketPairs": true,
-  "editor.linkedEditing": true,
-  "editor.wordWrap": "on",
-  "highlight-matching-tag.styles": {
-    "opening": {
-      "left": {
-        "custom": {
-          "borderWidth": "0 0 0 5px",
-          "borderStyle": "solid",
-          "borderColor": "yellow",
-          "borderRadius": "5px",
-          "overviewRulerColor": "white"
-        }
-      },
-      "right": {
-        "custom": {
-          "borderWidth": "0 5px 0 0",
-          "borderStyle": "solid",
-          "borderColor": "yellow",
-          "borderRadius": "5px",
-          "overviewRulerColor": "white"
-        }
-      }
-    }
-  },
-  "workbench.startupEditor": "none",
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "cSpell.userWords": ["Abdullah", "Wahed"],
-  "files.associations": {
-    "*.rmd": "markdown"
-  },
+  "editor.fontSize": 20,
   "workbench.colorCustomizations": {
-    "activityBar.background": "#12122c",
-    "editorGroupHeader.tabsBackground": "#12122c",
-    "editorGroupHeader.tabsBorder": "#90ee90",
-    "editorGroupHeader.border": "#e7dca5",
-    "sideBar.background": "#050203",
-    "sideBar.border": "#850101",
-    "sideBar.dropBackground": "#050203",
-    "sideBar.foreground": "#F4F1E6"
+    "sideBar.background": "#000000",
+    "sideBar.border": "#abff03",
+    "sideBarSectionHeader.background": "#070707",
+    "editor.background": "#000000",
+    "editor.findMatchBorder": "#ff0000",
+    "tab.activeBackground": "#000000",
+    "tab.activeBorder": "#ff0000",
+    "tab.inactiveBackground": "#243053a4",
+    "tab.activeBorderTop": "#ff0000",
+    "tab.activeModifiedBorder": "#00ff3c",
+    "tab.inactiveForeground": "#ffffff",
+    "tab.inactiveModifiedBorder": "#ff0000",
+    "tab.activeForeground": "#ffffff",
+    "tab.border": "#00e426",
+    "tab.hoverBorder": "#ffffff",
+    "tab.hoverBackground": "#6600ff",
+    "tab.hoverForeground": "#ffffff",
+    "toolbar.activeBackground": "#ff0000",
+    "window.activeBorder": "#ff0000",
+    "activityBar.activeBackground": "#372881",
+    "activityBar.activeBorder": "#00ff1e",
+    "activityBar.background": "#000000",
+    "activityBar.border": "#00f900",
+    "activityBar.foreground": "#ffffff",
+    "activityBar.activeFocusBorder": "#74ce77",
+    "activityBar.dropBorder": "#f2ff00",
+    "minimap.background": "#ffffff1b",
+    "terminal.border": "#0dff00",
+    "terminal.background": "#000000",
+    "terminal.foreground": "#ffffff",
+    "terminal.tab.activeBorder": "#ff0606",
+    "terminalCommandDecoration.defaultBackground": "#ffffff",
+    "terminalCommandDecoration.errorBackground": "#ff0000",
+    "terminalCommandDecoration.successBackground": "#09ff00",
+    "terminalCursor.foreground": "#fffb00",
+    "terminalCursor.background": "#9000ff6a",
+    "minimap.warningHighlight": "#fbff00",
+    "minimap.errorHighlight": "#ff0000",
+    "minimap.findMatchHighlight": "#c300ff",
+    "minimap.foregroundOpacity": "#e6d9d9",
+    "minimap.selectionHighlight": "#88ccf0",
+    "minimap.selectionOccurrenceHighlight": "#baee49",
+    "minimapSlider.activeBackground": "#ffffff3a",
+    "minimapSlider.hoverBackground": "#e6caca47",
+    "menu.background": "#070707",
+    "menu.border": "#f2ff00",
+    "menu.foreground": "#ffffff",
+    "menu.selectionBackground": "#5500ff",
+    "menu.selectionForeground": "#ffffff",
+    "menu.selectionBorder": "#ff0000",
+    "menu.separatorBackground": "#00ff8c",
+    "menubar.selectionBackground": "#000000",
+    "menubar.selectionBorder": "#ff0000",
+    "menubar.selectionForeground": "#ffffff",
+    "editorLineNumber.activeForeground": "#fffb00",
+    "editorLineNumber.dimmedForeground": "#970d36",
+    "editorLineNumber.foreground": "#5c74ff",
+    "editor.lineHighlightBorder": "#ff000068",
+    "editor.lineHighlightBackground": "#8ddfff1b",
+    "editor.selectionBackground": "#ffffff44"
   },
-  "background.enabled": true,
-  "background.loop": false,
-  "background.useDefault": false,
-  "background.useFront": false,
-  "background.style": {
-    "content": "''",
-    "pointer-events": "none",
-    "position": "absolute",
-    "z-index": "99999",
-    "width": "100%",
-    "height": "100%",
-    "background-size": "cover",
-    "background-repeat": "no-repeat",
-    "opacity": 0.1
-  },
-  "background.customImages": [
-    "H:/background.png"                         // change the path to get the background image
+  "editor.cursorBlinking": "expand",
+  "terminal.integrated.cursorStyle": "line",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.lineNumbers": "on",
+  "editor.fontFamily": "Fira Code, Operator Mono",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.cursorWidth": 3,
+  "editor.cursorStyle": "line",
+  "editor.wordWrap": "on",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+  "code-runner.runInTerminal": true,
+  "python.languageServer": "Pylance",
+  "arduino.logLevel": "info",
+  "arduino.allowPDEFiletype": false,
+  "arduino.enableUSBDetection": true,
+  "arduino.disableTestingOpen": false,
+  "arduino.skipHeaderProvider": false,
+  "arduino.additionalUrls": [
+    "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/master/package_azureboard_index.json",
+    "http://arduino.esp8266.com/stable/package_esp8266com_index.json"
   ],
-  "vs-kubernetes": {
-    "vscode-kubernetes.minikube-path.windows": "C:\\Users\\HP\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
-    "vscode-kubernetes.helm-path.windows": "C:\\Users\\HP\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe"
+  "arduino.defaultBaudRate": 9600,
+  "editor.accessibilitySupport": "on",
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.startupEditor": "none",
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
   },
-  "editor.tokenColorCustomizations": {
-    "comments":"#ffe600",
-    "functions": "#90ee90",
-    "keywords": "#ff6666",
-    "numbers": "#7fd4f0",
-    "strings": "#e3e2e2",
-    "types": "#ffb264",
-    "variables": "#ffffff"
-
-  }
+  "files.autoSave": "afterDelay",
+  "python.defaultInterpreterPath": "C:\\Users\\HP\\.conda\\envs\\machine-learning\\python.exe",
+  "arduino.useArduinoCli": true,
+  "notebook.lineNumbers": "on",
+  "notebook.cellToolbarVisibility": "hover",
+  "workbench.editorAssociations": {
+    "*.csv": "gc-excelviewer-csv-editor"
+  },
+  "C_Cpp.default.compilerPath": "C:\\msys64\\mingw64\\bin\\gcc.exe",
+  "cmake.configureOnOpen": true
 }
