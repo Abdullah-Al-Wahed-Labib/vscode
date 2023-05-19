@@ -1,12 +1,10 @@
 # vscode
-Visual Studion Settings and Extensions
+Visual Studio Settings and Extensions.
 
 
 
 Extensions :
 ============
-
-List of Extensions:
 
 1. Andromeda
 2. Arduino
