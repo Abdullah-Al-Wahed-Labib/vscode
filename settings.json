@@ -1,9 +1,7 @@
-// VS Code JSON settings
-
 {
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Andromeda Italic Bordered",
-  "editor.fontSize": 20,
+  "editor.fontSize": 16,
   "workbench.colorCustomizations": {
     "sideBar.background": "#000000",
     "sideBar.border": "#abff03",
